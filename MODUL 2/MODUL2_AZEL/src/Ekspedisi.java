@@ -16,6 +16,6 @@ public class Ekspedisi
     // TO DO: Create 'informasi' Method to show Information
 
     public void informasi(){
-        System.out.println("Ekspedisi tidak diketahui dengan jumlah cabang "+jumlahCabang+" dan berpusat di "+pusat+ " mempunyai tarif sebesar "+tarif+ " perkilo\n");
+        System.out.println("Ekspedisi tidak diketahui dengan jumlah cabang "+jumlahCabang+" dan berpusat di "+pusat+ " mempunyai tarif sebesar "+tarif+ " perkilogram\n");
     }
 }

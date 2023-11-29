@@ -10,7 +10,7 @@ public class TelUExpress extends Ekspedisi//...
     }
     // TO DO: Create 'informasi' Method to show Information
     public void informasi(){
-        System.out.println("\nEkspedisi TelUExpress dengan jumlah cabang "+jumlahCabang+" dan berpusat di "+pusat+ " mempunyai tarif sebesar "+tarif+ " perkilo");
+        System.out.println("\nEkspedisi TelUExpress dengan jumlah cabang "+jumlahCabang+" dan berpusat di "+pusat+ " mempunyai tarif sebesar "+tarif+ " perkilogram");
         if(antarInter == true) {
             System.out.println("Selain itu ,ekpedisi ini melayani pengantaran International");
         }

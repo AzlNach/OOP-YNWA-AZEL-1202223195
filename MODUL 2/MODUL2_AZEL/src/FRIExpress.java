@@ -11,7 +11,7 @@ public class FRIExpress extends Ekspedisi//...
 
     // TO DO: Create 'informasi' Method to show Information
     public void informasi(){
-        System.out.println("\nEkspedisi FRIExpress dengan jumlah cabang "+jumlahCabang+" dan berpusat di "+pusat+ " mempunyai tarif sebesar "+tarif+ " perkilo");
+        System.out.println("\nEkspedisi FRIExpress dengan jumlah cabang "+jumlahCabang+" dan berpusat di "+pusat+ " mempunyai tarif sebesar "+tarif+ " perkilogram");
         
         if(pecahBelah == true) {
             System.out.println("Selain itu ,ekpedisi ini melayani paket pecah belah");
