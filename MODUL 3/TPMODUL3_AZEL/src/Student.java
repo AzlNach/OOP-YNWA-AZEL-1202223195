@@ -15,7 +15,7 @@ class Student extends User{
     @Override
     public String getUserDetail() {
     return "Student - " + super.getUserDetail() +
-            "\nEnrolled Courses: " + String.join(", ", enrolledCourses) + "\n";
+            "\nEnrolled Courses: " +"["+ String.join(", ", enrolledCourses)+"]"+ "\n";
     }
 
 }
